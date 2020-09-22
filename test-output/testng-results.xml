@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-22T12:56:04Z" name="Default suite" finished-at="2020-09-22T12:56:05Z" duration-ms="892">
+    <groups>
+    </groups>
+    <test started-at="2020-09-22T12:56:04Z" name="Default test" finished-at="2020-09-22T12:56:05Z" duration-ms="892">
+      <class name="com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest@6892b3b6]" started-at="2020-09-22T18:26:04Z" name="setup" finished-at="2020-09-22T18:26:05Z" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getRunningAuctionsSuccessfully()[pri:0, instance:com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest@6892b3b6]" started-at="2020-09-22T18:26:05Z" name="getRunningAuctionsSuccessfully" finished-at="2020-09-22T18:26:05Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRunningAuctionsSuccessfully -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest@6892b3b6]" started-at="2020-09-22T18:26:05Z" name="setup" finished-at="2020-09-22T18:26:05Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="placeBidSuccessfully()[pri:0, instance:com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest@6892b3b6]" started-at="2020-09-22T18:26:05Z" name="placeBidSuccessfully" finished-at="2020-09-22T18:26:05Z" duration-ms="37" status="FAIL">
+          <exception class="org.mockito.exceptions.misusing.NotAMockException">
+            <message>
+              <![CDATA[
+Argument passed to verify() is of type BiddingSystemDaoImpl and is not a mock!
+Make sure you place the parenthesis correctly!
+See the examples of correct verifications:
+    verify(mock).someMethod();
+    verify(mock, times(10)).someMethod();
+    verify(mock, atLeastOnce()).someMethod();]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.mockito.exceptions.misusing.NotAMockException: 
+Argument passed to verify() is of type BiddingSystemDaoImpl and is not a mock!
+Make sure you place the parenthesis correctly!
+See the examples of correct verifications:
+    verify(mock).someMethod();
+    verify(mock, times(10)).someMethod();
+    verify(mock, atLeastOnce()).someMethod();
+	at com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest.placeBidSuccessfully(BiddingSystemDaoImplTest.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.mockito.exceptions.misusing.NotAMockException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeBidSuccessfully -->
+      </class> <!-- com.bidding.system.Bidding.System.dao.BiddingSystemDaoImplTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
