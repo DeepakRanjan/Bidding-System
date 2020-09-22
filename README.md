@@ -2,6 +2,8 @@
 
 #External Libraries imported : Google Json and Jackson, Junit, TestNG, PowerMock
 
+Reson to use above tech stack : Spring boot provides easy setup of configuartions as well as very good test case support using mockito and junit.
+
 #Steps to use :
 
 1. Download project.
